@@ -1,7 +1,10 @@
 table {
     margin:130px auto;
+    border-collapse: collapse;
 }
-
+td,th {
+    padding: 0;
+}
 td div{
     height:20px;
     width:20px;
