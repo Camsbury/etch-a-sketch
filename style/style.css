@@ -1,10 +1,17 @@
 table {
-    margin:130px auto;
+    margin:80px auto 0 auto;
     border-collapse: collapse;
 }
+
 h1 {
     display: inline;
     font-family: Times;
+}
+
+p,h2 {
+    font-family: Arial;
+    text-align: center;
+    margin: 20px auto;
 }
 
 th {
