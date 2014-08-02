@@ -21,7 +21,9 @@ function reset(){
     }
     $('td div').height(Math.ceil(320/g)+'px');
     $('td div').width(Math.ceil(320/g)+'px');
-    $('td div').css('background-color','lightblue');
+    $('td div').css('background-color','rgb(255,255,255)');
+    $('thead tr:first-child th').replaceWith('<th colspan="'+g+'"><h1>Cam\'s Etch-A-Sketch</h1></th>');
+    $('thead tr:last-child th').replaceWith('<th colspan="'+g+'"><button type="button" onclick="reset()">Reset</button></th>');
     $('div').mouseenter(function(){
         $(this).css('background-color','green');
         });
